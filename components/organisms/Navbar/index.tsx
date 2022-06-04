@@ -1,17 +1,17 @@
-import Link from 'next/link';
-import { useEffect } from 'react';
-import Menu from './Menu';
-import ToggleMenu from './ToggleMenu';
+import Link from "next/link";
+import { useEffect } from "react";
+import Menu from "./Menu";
+import ToggleMenu from "./ToggleMenu";
 
 export default function Navbar() {
   useEffect(() => {
     window.onscroll = () => {
-      const header = document.querySelector('header');
+      const header = document.querySelector("header");
 
       if (window.pageYOffset) {
-        header?.classList.add('navbar-fixed');
+        header?.classList.add("navbar-fixed");
       } else {
-        header?.classList.remove('navbar-fixed');
+        header?.classList.remove("navbar-fixed");
       }
     };
   }, []);

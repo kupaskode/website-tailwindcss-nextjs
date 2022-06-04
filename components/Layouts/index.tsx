@@ -1,7 +1,7 @@
-import Head from 'next/head';
-import React, { ReactNode } from 'react';
-import Footer from '../organisms/Footer';
-import Navbar from '../organisms/Navbar';
+import Head from "next/head";
+import React, { ReactNode } from "react";
+import Footer from "../organisms/Footer";
+import Navbar from "../organisms/Navbar";
 
 interface LayoutsProps {
   children: ReactNode;

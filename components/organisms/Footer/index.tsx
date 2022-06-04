@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -207,7 +207,7 @@ export default function Footer() {
             </Link>
           </div>
           <p className="font-medium text-xs text-slate-500 text-center">
-            Dibuat dengan <span className="text-red-600">❤</span> oleh{' '}
+            Dibuat dengan <span className="text-red-600">❤</span> oleh{" "}
             <span>
               <Link href="https://instagram.com/yubliwarokka__">
                 <a
@@ -218,7 +218,7 @@ export default function Footer() {
                 </a>
               </Link>
             </span>
-            , Menggunakan{' '}
+            , Menggunakan{" "}
             <span>
               <Link href="https://tailwindcss.com/">
                 <a
@@ -228,8 +228,8 @@ export default function Footer() {
                   Tailwind CSS
                 </a>
               </Link>
-            </span>{' '}
-            &{' '}
+            </span>{" "}
+            &{" "}
             <span>
               <Link href="https://nextjs.org/">
                 <a

@@ -1,7 +1,7 @@
 export default function ToggleMenu() {
   const onClick = () => {
-    document.querySelector('#hamburger')?.classList.toggle('hamburger-active');
-    document.querySelector('#nav-menu')?.classList.toggle('hidden');
+    document.querySelector("#hamburger")?.classList.toggle("hamburger-active");
+    document.querySelector("#nav-menu")?.classList.toggle("hidden");
   };
 
   return (

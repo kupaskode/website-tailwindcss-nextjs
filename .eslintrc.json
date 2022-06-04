@@ -41,6 +41,8 @@
     "jsx-a11y/label-has-associated-control": "off",
     "react/button-has-type": "off",
     "react/no-unescaped-entities": "off",
-    "@next/next/no-page-custom-font": "off"
+    "@next/next/no-page-custom-font": "off",
+    "semi": "off",
+    "quotes": "off"
   }
 }
