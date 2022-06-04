@@ -39,6 +39,8 @@
     "import/no-unresolved": "off",
     "react/no-unknown-property": "off",
     "jsx-a11y/label-has-associated-control": "off",
-    "react/button-has-type": "off"
+    "react/button-has-type": "off",
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-page-custom-font": "off"
   }
 }
